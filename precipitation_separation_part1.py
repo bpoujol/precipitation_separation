@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 #Load the data
-#Your data must be 3D with the format precip[time,x,y] in mm/hr
+#Your data must be 3D with the format precip[time,y,x] in mm/hr
 #Load mid tropospheric vertical velocity
 wa500 = np.array(Dataset("wa500.nc")["W_PL"])[:,0,:,:]
 
