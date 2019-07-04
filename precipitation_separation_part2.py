@@ -18,11 +18,11 @@ threshold_topo = 0.2 #(m/s)
 #Load the mask of the subregion where you want to separate the precipitation
 mask = np.array(Dataset("mask_east.nc")["mask_array"])[:,:]
 #Convert the mask into a boolean array
-mask = mask_west.astype('bool')
+mask = mask.astype('bool')
 
 #Load the precipitation data and mask it
 precip_temp = np.array(Dataset("precip.nc")["RAINNC"])[:,:,:]
-precip = np.array([x[mask_west] for x in precip_temp])
+precip = np.array([x[mask] for x in precip_temp])
 del precip_temp
 
 #Load and mask the standard deviations produced by part 1
