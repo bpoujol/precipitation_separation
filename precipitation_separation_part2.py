@@ -27,13 +27,13 @@ del precip_temp
 
 #Load and mask the standard deviations produced by part 1
 indexw = np.load("index_w.npy")
-index_w = np.array([x[mask_west] for x in indexw])
+index_w = np.array([x[mask] for x in indexw])
 del indexw
 indexz = np.load("index_z.npy")
-index_z = np.array([x[mask_west] for x in indexz])
+index_z = np.array([x[mask] for x in indexz])
 del indexz
 indextopo = np.load("index_topo.npy")
-index_topo = np.array([x[mask_west] for x in indextopo])
+index_topo = np.array([x[mask] for x in indextopo])
 del indextopo
 
 
