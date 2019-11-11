@@ -11,7 +11,7 @@ from netCDF4 import Dataset
 #Threshold for vorticity
 threshold_z = 0.5 #(m/s) (the threshold in s^-1 must be multiplied by the horizontal resolution of your data)
 #Threshold for vertical velocity
-threshold_w = 0.04 #(m/s)  To put this threshold in Pa/s just multiply by 6.85 (dp/dz ~ 6.85 Pa/m in the mid-troposphere).
+threshold_w = 0.05 #(m/s)  To put this threshold in Pa/s just multiply by 6.85 (dp/dz ~ 6.85 Pa/m in the mid-troposphere).
 #Threshold for topography-induced vertical velocity
 threshold_topo = 0.2 #(m/s)
 
