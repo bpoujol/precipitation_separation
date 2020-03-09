@@ -2,7 +2,7 @@
 
 ## Description of the algorithm
 
-This algorithm is designed to separate the precipitation from convection-permitting model outputs into three categories : (1) convective, (2) stratiform, and (3) orographically enhanced stratiform precipitation. The algorithm is presented and discussed in a research article (B.Poujol, S.Sobolowski, P.Mooney and S.Berthou, *A physically-based precipitation separation algorithm for convection-permitting models over complex topography*, in preparation). Refer to it for further information. The algorithm has been designed in spring 2019 by the authors of the article.
+This algorithm is designed to separate the precipitation from convection-permitting model outputs into three categories : (1) convective, (2) stratiform, and (3) orographically enhanced stratiform precipitation. The algorithm is presented and discussed in a research article (B.Poujol, S.Sobolowski, P.Mooney and S.Berthou, *A physically-based precipitation separation algorithm for convection-permitting models over complex topography*, QJRMS (2019)). Refer to it for further information. The algorithm has been designed in spring 2019 by the authors of the article.
 
 ## Requirements
 All the input of the algorithm is NetCDF format, and over a grid with constant spacing between the grid points.
@@ -29,7 +29,7 @@ for any purpose, even commercially.
 You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
 
-To give credit to the authors, just cite the article describing this algorithm : B.Poujol, S.Sobolowski, P.Mooney and S.Berthou, *A physically-based precipitation separation algorithm for convection-permitting models over complex topography*, in preparation .
+To give credit to the authors, just cite the article describing this algorithm : B.Poujol, S.Sobolowski, P.Mooney and S.Berthou, *A physically-based precipitation separation algorithm for convection-permitting models over complex topography*, QJRMS (2019) .
 
  
  
